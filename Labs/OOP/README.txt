@@ -1,0 +1,1 @@
+Main.scala is used to show all results for the problems (1-5)

@@ -1,0 +1,21 @@
+def count = var(0)
+count
+[count]
+count = [count] + 1
+count
+count + 1
+def pcount = var(count)
+pcount
+[[pcount]]
+while ([count] < 10) { write("calling incCount");count = [count] + 1 }
+while ([count] < 20) {
+write("calling incCount")
+count = [count] + 1 
+}
+count
+def tri = lambda (n) { def result = var(0); def count = var(0); while([count] < n + 1) {  result = [result] + [count];  count = [count] + 1 }; [result] }
+tri(5)
+tri(6)
+if([count] > 1){
+write("this is first line")
+write("this is second line")}

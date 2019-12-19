@@ -1,0 +1,37 @@
+/*
+* Thong Le - 011922131
+* cs 152 - 02 - prof: John Pearce
+* Jedi 0.0
+*/
+
+// ExprTest
+3.14
+3.14
+
+// NumberTest
+i1 * i2 = 42
+i1 == i2 = false
+i1 < i2 = false
+i1.## = 55
+-r1 = -3.14
+r1 * r2 = 8.5094
+r1 == r2 = false
+r1 < r2 = false
+r1.## = 1565118
+r1 * i2 = 18.84
+i1 * r2 = 18.97
+i1 + r2 = 9.71
+i1 / 0 = None
+
+// BooleTest
+t && f = false
+t || f = true
+!t = false
+
+// CharsTest
+s4 = California...Dreaming
+iforn
+California < Dreaming = true // assume compare based on hashCode
+Dreaming < California = false
+California == California = true
+California == Dreaming = false

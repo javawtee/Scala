@@ -1,0 +1,11 @@
+def x = 5
+def promise1 = {def x = 10; freeze(2*x)}
+promise1
+def ignoreParam = lambda(x, y) 2 * x
+ignoreParam(3, freeze({write("computing y"); 10}))
+def add10 = lambda(z) { def x = 10; z + x}
+add10(freeze(x))
+def promise3 = freeze({write("thawing a thunk"); 2+3})
+promise3
+promise3
+promise3
